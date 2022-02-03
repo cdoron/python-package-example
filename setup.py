@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='qqq',
-    version='0.1',
+    version='v1.0.1',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
     description='An example python package',
