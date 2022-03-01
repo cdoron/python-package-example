@@ -4,10 +4,10 @@ on:
     inputs:
       library-version:
         required: true
-        default: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        default: ${{ secrets.QQQ }}
       pypi-repository-url:
         required: false
-        default: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        default: ${{ secrets.QQQ }}
 jobs:
   python-publish:
     runs-on: ubuntu-latest
